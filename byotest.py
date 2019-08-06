@@ -1,9 +1,3 @@
-def number_of_evens(numbers):
-    return 0
-
-def count_numbers(numbers):
-    return False
-    
 def test_are_equal(actual, expected):
     assert expected == actual, "Expected {0}, got {1}".format(expected, actual)
 
@@ -32,5 +26,5 @@ def test_between(value,lower_limit,upper_limit):
 #test_not_in([0,1,2,3,4], number_of_evens([1,2,3]))
 
 # Test to fail the `test_between` function
-test_between(1,2,4)
+#test_between(1,2,4)
 
